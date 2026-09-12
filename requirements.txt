@@ -1,0 +1,8 @@
+# Core
+azure-storage-blob>=12.19
+python-dotenv>=1.0
+
+# Needed only by parquet_to_df() and df_to_excel()
+pandas>=2.0
+pyarrow>=14.0
+openpyxl>=3.1
